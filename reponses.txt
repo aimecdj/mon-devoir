@@ -1,0 +1,14 @@
+6-REPONSE AUX QUESTIONS
+
+A- La difference entre les commandes "git pull" et "git fetch"
+La commande "git pull" est utilisée pour faire un fetch du contenu d'un dépôt distant et pour le télécharger,
+ puis pour mettre à jour immédiatement le dépôt local qui correspond à ce contenu tandis que la commande "git fetch" va récupérer toutes les données des
+ commits effectués sur la branche courante qui n'existent pas encore dans votre version en local. 
+ 
+B- Tout d'abord, vous devez rechercher l'ID de la révision que vous souhaitez afficher. Cet exemple part du principe que vous développez sur 
+la branche ( main ) par défaut. Une fois que vous êtes revenu dans la branche ( main ), vous pouvez utiliser git 
+revert ou git reset pour annuler les changements indésirables.
+
+C- La suppression d'une branche distante nécessite l'utilisation de la git push commande à l'aide de l'option --delete .
+
+D- on utilisera la commande git log + "nom du fichier" pour voir l'historique
